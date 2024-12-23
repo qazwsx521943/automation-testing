@@ -1,0 +1,15 @@
+changelog:
+  exclude:
+    authors:
+      - github-actions
+  categories:
+    - title: 🚀Features
+      labels:
+        - feat
+    - title: 🐛Bug Fixes
+      labels:
+        - fix
+    - title: 🛠️Chores & Refactoring
+      labels:
+        - chore
+
