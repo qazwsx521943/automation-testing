@@ -19,7 +19,7 @@ jobs:
           # `on-failed-regex-fail-action: true`). See:
           # https://docs.github.com/en/actions/security-guides/automatic-token-authentication#permissions-for-the-github_token
           # https://docs.github.com/en/rest/pulls/reviews#dismiss-a-review-for-a-pull-request
-          title-regex: "^(feat|fix|refactor|docs|test|chore|build):\s.+$
+          title-regex: "^(feat|fix|refactor|docs|test|chore|build):\s.+$"
           on-failed-regex-fail-action: true
           on-failed-regex-create-review: true
           on-failed-regex-request-changes: true
